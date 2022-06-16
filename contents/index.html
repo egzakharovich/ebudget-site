@@ -1,71 +1,82 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Сообщество ГИИС "Электронный бюджет"</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+    <meta charset="UTF-8">
+    <title>Сообщество ГИИС "Электронный бюджет"</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
+
 <body>
-  <div id="app">Пожалуйста, подождите! Страница формируется. Обычно это происходит моментально.</div>
-  
-  <script>
-    window.$docsify = {
-      // Название проекта
-      name: 'Электронный бюджет - Wiki',
-      repo: 'https://github.com/egzakharovich/ebudget-site',
+    <div id="app">Пожалуйста, подождите! Страница формируется. Обычно это происходит моментально.</div>
 
-      relativePath: true,
+    <script>
+        window.$docsify = {
+            // Название проекта
+            name: 'Электронный бюджет - Wiki',
+            repo: 'https://github.com/egzakharovich/ebudget-site',
 
-      // Загрузить Sidebar и разрешить ему показывать Содержание (TOC) вплоть до второго заголовка.
-      loadSidebar: true,
-      subMaxLevel: 2,
+            relativePath: true,
 
-      // Конфигурация плагина flexible-alerts
-      'flexible-alerts': {
-        
-        tip: {
-          label: "Совет"
-        },
+            // Загрузить Sidebar и разрешить ему показывать Содержание (TOC) вплоть до второго заголовка.
+            loadSidebar: true,
+            subMaxLevel: 2,
 
-        note: {
-          label: "Заметка"
-        },
+            // Конфигурация плагина flexible-alerts
+            'flexible-alerts': {
 
-        warning: {
-          label: "Осторожно!"
-        },
+                tip: {
+                    label: "Совет"
+                },
 
-        attention: {
-          label: "Внимание! Важно!"
-        },
+                note: {
+                    label: "Заметка"
+                },
 
-        // Добавляем собственный тип блока
-        wip: {
-          label: 'Work In Progress',
-          icon: 'fas fa-person-digging',
-          className: 'warning'
+                warning: {
+                    label: "Осторожно!"
+                },
+
+                attention: {
+                    label: "Внимание! Важно!"
+                },
+
+                // Добавляем собственный тип блока
+                wip: {
+                    label: 'Work In Progress',
+                    icon: 'fas fa-person-digging',
+                    className: 'warning'
+                }
+            }
         }
-      }
-    }
-  </script>
-  
-  <!-- FIXME: Переустановить все скрипты локально или загружать их, хотя бы, с указанием точной версии -->
+    </script>
 
-  <!-- Основная программа - Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <!-- FIXME: Переустановить все скрипты локально или загружать их, хотя бы, с указанием точной версии -->
 
-  <!-- Загрузить плагин docsify-plugin-flexible-alerts -->
-  <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
+    <!-- Основная программа - Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 
-  <!-- Загрузить плагин docsify-fontawesome -->
-  <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/fontawesome.css" />
-  <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/brands.css" />
-  <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
-  <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
-  <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
+    <!-- Загрузить плагин docsify-plugin-flexible-alerts -->
+    <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
+
+    <!-- Загрузить плагин docsify-fontawesome -->
+    <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/fontawesome.css" />
+    <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/brands.css" />
+    <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
+    <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
+    <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
+
 
 </body>
+
+<!--
+Для расширения Modelines
+https://marketplace.visualstudio.com/items?itemName=chrislajoie.vscode-modelines
+
+// code: language=html insertSpaces=true tabSize=4
+-->
+
 </html>
