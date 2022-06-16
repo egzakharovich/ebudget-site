@@ -26,9 +26,4 @@
 
 [СЭД казначейства](https://sedkazna.ru/) - форум ещё более старого сообщества, но с этим порталом не связанного. Часть полезной информации в своё время была взята оттуда. За актуальность и правильность выложенной там информации не ручаемся, т.к. всё что выложено тут - было проверено постоянной практикой.
 
-<!--
-Для расширения Modelines
-https://marketplace.visualstudio.com/items?itemName=chrislajoie.vscode-modelines
-
-// code: language=markdown insertSpaces=true tabSize=4
--->
+<!-- // code: language=markdown insertSpaces=true tabSize=4 -->

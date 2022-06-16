@@ -30,9 +30,4 @@ docsify serve contents
 
 Перейти по ссылке из консоли на [localhost:3000](http://localhost:3000)
 
-<!--
-Для расширения Modelines
-https://marketplace.visualstudio.com/items?itemName=chrislajoie.vscode-modelines
-
-// code: language=markdown insertSpaces=true tabSize=4
--->
+<!-- // code: language=markdown insertSpaces=true tabSize=4 -->
