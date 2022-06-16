@@ -26,7 +26,11 @@
 
             // Загрузить Sidebar и разрешить ему показывать Содержание (TOC) вплоть до второго заголовка.
             loadSidebar: true,
-            subMaxLevel: 2,
+            alias: {
+                '/.*/_sidebar.md': '/_sidebar.md'
+            },
+            subMaxLevel: 3,
+
 
             // Конфигурация плагина docsify-plugin-flexible-alerts
             'flexible-alerts': {
@@ -62,7 +66,10 @@
                 theme: 'classic', // default
                 tabComments: true,      // default
                 tabHeadings: true       // default
-            }
+            },
+
+            // Конфигурация плагина docsify-sidebar-collapse
+            sidebarDisplayLevel: 2
         }
     </script>
 
@@ -84,6 +91,8 @@
     <!-- Загрузить плагин docsify-tabs -->
     <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 
+    <!-- Загрузить плагин docsify-sidebar-collapse -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
 
 <!--
