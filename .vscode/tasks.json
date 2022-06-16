@@ -1,0 +1,54 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            // Источник: https://christianheilmann.com/2022/03/17/automatically-starting-a-server-when-starting-a-debug-session-in-vs-code/
+            "label": "Start docsify server",
+            "type": "shell",
+            "command": "docsify",
+            "args": [
+                "serve",
+                "contents"
+            ],
+            "isBackground": true,
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": [
+                {
+                    "pattern": [
+                        {
+                            "regexp": ".",
+                            "file": 1,
+                            "line": 3,
+                            "column": 1,
+                            "message": 1
+                        }
+                    ],
+                    "background": {
+                        "activeOnStart": true,
+                        "beginsPattern": {
+                            "regexp": "."
+                        },
+                        "endsPattern": {
+                            "regexp": "."
+                        }
+                    },
+                }
+            ]
+        },
+        {
+            "label": "Stop docsify server",
+            "command": "echo ${input:terminate}",
+            "type": "shell"
+        },
+    ],
+    "inputs": [
+        {
+            "id": "terminate",
+            "type": "command",
+            "command": "workbench.action.tasks.terminate",
+            "args": "terminateAll"
+        }
+    ]
+}
