@@ -1,0 +1,9 @@
+{
+    "markdown-preview-enhanced.enableHTML5Embed": true,
+    "markdown-preview-enhanced.enableScriptExecution": true,
+    "markdown-preview-enhanced.imageFolderPath": "/contents/assets/images",
+    "markdownlint.ignore": [
+        "**/*.part.md",
+        "**/_sidebar.md"
+    ]
+}

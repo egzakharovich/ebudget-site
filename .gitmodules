@@ -1,0 +1,4 @@
+[submodule "contents/assets/common-images"]
+	path = contents/assets/common-images
+	url = ../ebudget-resources-common-images.git
+	branch = master
