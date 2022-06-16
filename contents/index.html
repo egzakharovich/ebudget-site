@@ -53,6 +53,15 @@
                     icon: 'fas fa-person-digging',
                     className: 'warning'
                 }
+            },
+
+            // Конфигурация плагина docsify-tabs
+            tabs: {
+                persist: true,      // default
+                sync: true,      // default
+                theme: 'classic', // default
+                tabComments: true,      // default
+                tabHeadings: true       // default
             }
         }
     </script>
@@ -72,6 +81,8 @@
     <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
     <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
 
+    <!-- Загрузить плагин docsify-tabs -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 
 </body>
 
