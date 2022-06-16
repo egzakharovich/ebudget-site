@@ -17,15 +17,18 @@
         window.$docsify = {
             // Название проекта
             name: 'Электронный бюджет - Wiki',
+
+            // Основной репозиторий проекта. Ссылка добавляет в углу кнопку для перехода в репозиторий.
             repo: 'https://github.com/egzakharovich/ebudget-site',
 
+            // Использовать относительные пути
             relativePath: true,
 
             // Загрузить Sidebar и разрешить ему показывать Содержание (TOC) вплоть до второго заголовка.
             loadSidebar: true,
             subMaxLevel: 2,
 
-            // Конфигурация плагина flexible-alerts
+            // Конфигурация плагина docsify-plugin-flexible-alerts
             'flexible-alerts': {
 
                 tip: {
@@ -44,7 +47,7 @@
                     label: "Внимание! Важно!"
                 },
 
-                // Добавляем собственный тип блока
+                // Добавляем собственный тип блока - Work In Progress
                 wip: {
                     label: 'Work In Progress',
                     icon: 'fas fa-person-digging',
