@@ -11,7 +11,7 @@
             "url": "http://localhost:3000",
             "webRoot": "${workspaceFolder}/contents",
             "windows": {
-                "runtimeExecutable": "${userHome}\\AppData\\Local\\BraveSoftware\\Brave-Browser\\Application\\brave.exe"
+                "runtimeExecutable": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe"
             },
             "preLaunchTask": "Start docsify server",
             "postDebugTask": "Stop docsify server"
