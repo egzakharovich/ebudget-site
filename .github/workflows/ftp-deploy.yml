@@ -1,0 +1,28 @@
+name: Deploy site on static hosting using FTP
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  ftp-deploy:
+    name: Deploy to FTP
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository contents
+      uses: actions/checkout@v3
+      submodules: true
+
+    - name: Deploy to FTP using SamKirkland/FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+        server: "${{secrets.DEPLOY_FTP_HOST}}"
+        username: "${{secrets.DEPLOY_FTP_USERNAME}}"
+        password: "${{secrets.DEPLOY_FTP_PASSWORD}}"
+        protocol: "ftps"
+        local-dir: "./contents/"
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          **/files/**
