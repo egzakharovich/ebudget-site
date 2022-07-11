@@ -34,4 +34,4 @@
 
 [Официальная страница для скачивания на сайте производителя](https://www.cryptopro.ru/products/cades/plugin).
 
-<!-- // code: language=markdown insertSpaces=true tabSize=4 -->
+<!-- // code: language=markdown insertSpaces=true tabSize=2 -->

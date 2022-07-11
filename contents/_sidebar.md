@@ -21,4 +21,4 @@
 - [Загрузки](downloads/)
   - [Эталонный конфигурационный файл для Континент TLS-клиента](downloads/tlsclient-config.md "Загрузки: Эталонный конфигурационный файл для Континент TLS-клиента")
 
-<!-- // code: language=markdown insertSpaces=true tabSize=4 -->
+<!-- // code: language=markdown insertSpaces=true tabSize=2 -->

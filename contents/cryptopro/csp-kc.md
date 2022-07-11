@@ -14,3 +14,5 @@
 - <https://anti-malware.ru/analytics/Market_Analysis/infosecurity-systems-classification-fsb-fstek>
 - <https://skzicard.ru/klass-skzi/>
 - <https://www.cryptopro.ru/forum2/default.aspx?g=posts&t=1373>
+
+<!-- // code: language=markdown insertSpaces=true tabSize=2 -->

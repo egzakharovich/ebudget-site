@@ -6,4 +6,4 @@
 >
 > <img src="assets/images/wip.png" alt="Наглядное изображение процесса" width="250"/>
 
-<!-- // code: language=markdown insertSpaces=true tabSize=4 -->
+<!-- // code: language=markdown insertSpaces=true tabSize=2 -->
