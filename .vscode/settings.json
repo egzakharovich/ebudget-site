@@ -5,5 +5,7 @@
     "markdownlint.ignore": [
         "**/*.part.md",
         "**/_sidebar.md"
-    ]
+    ],
+    "markdownShortcuts.bold.marker": "__",
+    "markdownShortcuts.bullets.marker": "-"
 }
