@@ -4,9 +4,4 @@
 
 ![Добавление ресурса](../../assets/common-images/Continent_TlsClient/Continent_TlsClient-Add_resource.png)
 
-<!--
-Для расширения Modelines
-https://marketplace.visualstudio.com/items?itemName=chrislajoie.vscode-modelines
-
-// code: language=markdown insertSpaces=true tabSize=4
--->
+<!-- // code: language=markdown insertSpaces=true tabSize=2 -->
