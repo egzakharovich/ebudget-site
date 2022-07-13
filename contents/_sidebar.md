@@ -1,24 +1,25 @@
 
-- [Сокращения и термины](glossary.md "Глоссарий")
+- [Сокращения](shortenings.md)
+- [Терминология](terminology.md)
 
 ----
 
-<!-- - [Простая настройка АРМ](eb-quick/)  -->
-
-<!-- - [Расширенная настройка АРМ](eb-full/) -->
-
-- [КриптоПро CSP](cryptopro/)
-  - [Порядок установки](cryptopro/install-order.md)
-  - [Версии КриптоПро CSP](cryptopro/csp-versions.md)
+- [КриптоПро](cryptopro/)
+  - [Доступные версии КриптоПро CSP](cryptopro/csp-versions.md)
+  - [Порядок установки СКЗИ](cryptopro/install-order.md)
+  - [Классах средств защиты СКЗИ](cryptopro/about-kc.md)
+  - [Установка КриптоПро CSP](cryptopro/csp-install.md)
+  - [Установка КриптоПро ЭЦП browser plug-in](cryptopro/cades-install.md)
+  - [Установка расширения КриптоПро ЭЦП в браузер](cryptopro/cades-install-extension.md)
+  - [Добавление доверенных сайтов в КриптоПро ЭЦП](cryptopro/cades-add-trusted-sites.md)
+  - [Установка личного сертификата](cryptopro/csp-install-personal-cert.md)
+  - [Браузеры с поддержкой ГОСТ TLS](cryptopro/tls-browsers.md)
 
 - [Континент TLS-клиент](continent-tls-client/)
-  - [Руководство: Применение эталонной конфигурации](continent-tls-client/guide-import-config.md "Континент TLS-клиент -- Руководство: Применение эталонной конфигурации")
 
-<!-- - [Jinn-Client](jinn-client/) -->
-
-<!-- - [Устранение неполадок](support/) -->
-
-- [Загрузки](downloads/)
-  - [Эталонный конфигурационный файл для Континент TLS-клиента](downloads/tlsclient-config.md "Загрузки: Эталонный конфигурационный файл для Континент TLS-клиента")
+- [Инструкции по проверке работоспособности и устранению неполадок](troubleshooting/)
+  - [Конфликтующее АВПО](troubleshooting/antivirus-conflicts.md)
+  - [Проверка работоспособности КриптоПро ЭЦП в браузере](troubleshooting/cryptopro-cades-test.md)
+  - [Тестирование контейнера ключа КриптоПро CSP](troubleshooting/cryptopro-csp-container-test.md)
 
 <!-- // code: language=markdown insertSpaces=true tabSize=2 -->

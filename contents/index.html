@@ -26,8 +26,13 @@
 
             // Загрузить Sidebar и разрешить ему показывать Содержание (TOC) вплоть до второго заголовка.
             loadSidebar: true,
+            loadNavbar: true,
             alias: {
-                '/.*/_sidebar.md': '/_sidebar.md'
+                '/cryptopro/_sidebar.md': '/_sidebar.md',
+                '/continent-tls-client/_sidebar.md': '/_sidebar.md',
+                '/troubleshooting/_sidebar.md': '/_sidebar.md',
+                '/.*/_navbar.md': '/_navbar.md',
+                '/guides/.*/_sidebar.md': '/guides/_sidebar.md',
             },
             subMaxLevel: 3,
 
@@ -44,7 +49,7 @@
                 },
 
                 note: {
-                    label: "Заметка"
+                    label: "На заметку"
                 },
 
                 warning: {
@@ -92,10 +97,10 @@
     <!-- FIXME: Переустановить все скрипты локально или загружать их, хотя бы, с указанием точной версии -->
 
     <!-- Основная программа - Docsify v4 -->
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 
     <!-- Загрузить плагин docsify-plugin-flexible-alerts -->
-    <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts@1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts@1/dist/docsify-plugin-flexible-alerts.min.js"></script>
 
     <!-- Загрузить плагин docsify-fontawesome -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/fontawesome.min.css">
@@ -105,7 +110,7 @@
     <script src="https://cdn.jsdelivr.net/npm/docsify-fontawesome@0.0.6/dist/docsify-fontawesome.min.js"></script>
 
     <!-- Загрузить плагин docsify-tabs -->
-    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
 
     <!-- Загрузить плагин docsify-sidebar-collapse -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
@@ -113,6 +118,9 @@
 
     <!-- Загрузить плагин docsify-pagination -->
     <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+
+    <!-- Загрузить плагин docsify-zoom-image -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
 </body>
 
 <!-- // code: language=html insertSpaces=true tabSize=4 -->

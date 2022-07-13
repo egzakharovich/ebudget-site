@@ -1,6 +1,6 @@
 # КриптоПро
 
-[WIP](../_wip_banner.part.md ':include')
+[WIP Banner](../_parts/wip_banner.part.md ':include')
 
 Раздел посвященный продукции ООО &laquo;КРИПТО-ПРО&raquo;.
 
