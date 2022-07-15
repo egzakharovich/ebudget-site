@@ -30,25 +30,25 @@
 
 <!-- tabs:end -->
 
-## 3. Выполнить импорт конфигурационного файла с использованием функции `Импортировать конфигурацию`.
+## 3. Выполнить импорт конфигурационного файла с использованием функции `Импортировать конфигурацию`
 
 <!-- tabs:start -->
 
 ### **2.0.1440.0**
 
-Файл: `tlsclient-configutation/2.0.1440.0/ContinentTLSClientConfig_2.0.1440.0_ebudget.JSON`
+Файл: `tlsclient-configuration/2.0.1440.0/ContinentTLSClientConfig_2.0.1440.0_ebudget.JSON`
 
 ![Скриншот Континент TLS-клиент 2.0.1440.0 Импорт конфигурационного файла](../../assets/common-images/Continent_TlsClient/2.0.1440.0/Continent_TlsClient-2.0.1440.0-Import_config.png)
 
 ### **2.0.1482.0**
 
-Файл: `tlsclient-configutation/2.0.1482.0/ContinentTLSClientConfig_2.0.1482.0_ebudget.JSON`
+Файл: `tlsclient-configuration/2.0.1482.0/ContinentTLSClientConfig_2.0.1482.0_ebudget.JSON`
 
 ![Скриншот Континент TLS-клиент 2.0.1482.0 Импорт конфигурационного файла](../../assets/common-images/Continent_TlsClient/2.0.1482.0/Continent_TlsClient-2.0.1482.0-Import_config.png)
 
 <!-- tabs:end -->
 
-## 4. Осуществить повторный выход.
+## 4. Осуществить повторный выход
 
 <!-- tabs:start -->
 
@@ -62,11 +62,11 @@
 
 <!-- tabs:end -->
 
-## 5. Запустить программу с обычными правами.
+## 5. Запустить программу с обычными правами
 
 По двойному клику на ярлыке на рабочем столе или в меню Пуск, без использования функции `Запуск от имени администратора`.
 
-## 6. Повторно импортировать файл конфигурации с использованием функции `Импортировать конфигурацию`.
+## 6. Повторно импортировать файл конфигурации с использованием функции `Импортировать конфигурацию`
 
 Запуск от имени администратора мог применить пользовательские настройки _не туда_, т.е. в профиль администратора.
 
@@ -74,13 +74,13 @@
 
 ### **2.0.1440.0**
 
-Файл: `tlsclient-configutation/2.0.1440.0/ContinentTLSClientConfig_2.0.1440.0_ebudget.JSON`
+Файл: `tlsclient-configuration/2.0.1440.0/ContinentTLSClientConfig_2.0.1440.0_ebudget.JSON`
 
 ![Скриншот Континент TLS-клиент 2.0.1440.0 Импорт конфигурационного файла](../../assets/common-images/Continent_TlsClient/2.0.1440.0/Continent_TlsClient-2.0.1440.0-Import_config.png)
 
 ### **2.0.1482.0**
 
-Файл: `tlsclient-configutation/2.0.1482.0/ContinentTLSClientConfig_2.0.1482.0_ebudget.JSON`
+Файл: `tlsclient-configuration/2.0.1482.0/ContinentTLSClientConfig_2.0.1482.0_ebudget.JSON`
 
 ![Скриншот Континент TLS-клиент 2.0.1482.0 Импорт конфигурационного файла](../../assets/common-images/Continent_TlsClient/2.0.1482.0/Continent_TlsClient-2.0.1482.0-Import_config.png)
 
