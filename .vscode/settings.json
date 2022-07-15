@@ -1,9 +1,77 @@
 {
-    "markdown-preview-enhanced.enableHTML5Embed": true,
-    "markdown-preview-enhanced.enableScriptExecution": true,
-    "markdown-preview-enhanced.imageFolderPath": "/contents/assets/images",
+    // При копировании путей всегда использовать `/` в качестве разделителя пути
+    "explorer.copyRelativePathSeparator": "/",
+
+    // VS Code default formatter
+    "[markdown]": {
+        // Markdown All In One имеет замечательный форматтер
+        // Он умеет предлагать ссылки на любой файл в рабочей директории
+        // Он умеет правильно форматировать списки автоматически. Форматировать таблицы...
+        // Короче, в разы лучше, чем стандартный.
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+
+    // Включить некоторые экспериментальные функции
+    "markdown.experimental.validate.enabled": true,
+    "markdown.experimental.editor.pasteLinks.enabled": true,
+
+    // markdownlint
     "markdownlint.ignore": [
         "**/*.part.md",
-        "**/_sidebar.md"
-    ]
+        "**/_sidebar.md",
+        "**/_navbar.md"
+    ],
+
+    // Markdown All In One
+    "markdown.extension.italic.indicator": "_",
+    "markdown.extension.list.indentationSize": "inherit",
+    "markdown.extension.tableFormatter.normalizeIndentation": true,
+
+    // Markdown Shortcuts
+    "markdownShortcuts.bold.marker": "__",
+    "markdownShortcuts.italics.marker": "_",
+    "markdownShortcuts.bullets.marker": "-",
+
+    // Paste Image
+    "pasteImage.namePrefix": "${currentFileNameWithoutExt}_",
+    "pasteImage.path": "${projectRoot}/contents/assets/images",
+    "pasteImage.basePath": "${currentFileDir}",
+    "pasteImage.forceUnixStyleSeparator": true,
+    "markdown.extension.print.absoluteImgPath": false,
+
+    // Code Spell Checker
+    "cSpell.language": "ru,ru-RU,en-US,en",
+    "cSpell.words": [
+        "журналируемые",
+        "Крипто",
+        "криптопровайдер",
+        "криптопровайдера",
+        "криптопровайдере",
+        "криптопровайдером",
+        "Рутокен",
+        "Сублицензирование",
+        "Сублицензирования"
+    ],
+    "cSpell.ignoreWords": [
+        "GOST",
+        "compatiblelicenses",
+        "cpconfig",
+        "creativecommons",
+        "cryptopro",
+        "ebudget",
+        "fontawesome",
+        "gosttls",
+        "licmgmt",
+        "tldr",
+        "tlsclient",
+        "АВПО",
+        "АПМДЗ",
+        "ВОИС",
+        "ГИИС",
+        "СКЗИ",
+        "ТОФК",
+        "УКЭП",
+        "ФСТЭК"
+    ],
+
 }

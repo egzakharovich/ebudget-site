@@ -1,0 +1,76 @@
+{
+    "Insert modeline": {
+        "prefix": "markdown-modeline",
+        "body": "<!-- // code: language=markdown insertSpaces=true tabSize=2 -->",
+        "description": "Вставить строку modeline для markdown"
+    },
+    "Insert keyboard HTML tag": {
+		"prefix": "html-kbd",
+		"body": [
+			"<kbd>$1</kbd>"
+		]
+	},
+	"Insert keyboard shortcut": {
+		"prefix": ["keyboard shortcut", "сочетание клавиш"],
+		"body": [
+			"&#9000;<kbd>$1</kbd>"
+		]
+	},
+	"Insert typographic quotation": {
+		"prefix": ["html-laquo", "ёлочки", "елочки"],
+		"body": [
+			"&laquo;$1&raquo;"
+		]
+	},
+	"Insert mdash": {
+		"prefix": ["html-mdash", "тире"],
+		"body": [
+			"&mdash;"
+		]
+	},
+	"Insert ndash": {
+		"prefix": ["html-ndash", "короткое тире"],
+		"body": [
+			"&ndash;"
+		]
+	},
+	"Insert abbreviation": {
+		"prefix": ["html-abbr", "аббревиатура"],
+		"body": "<abbr title=\"$2\">$1</abbr>"
+	},
+	"Insert custom anchor": {
+		"prefix": ["html-anchor", "якорь"],
+		"body": "<a name=\"$2\">$1</a>"
+	},
+	"Insert image": {
+		"prefix": "markdown-image",
+		"body": "![$2]($1)"
+	},
+	"Insert link": {
+		"prefix": "markdown-link",
+		"body": "[$2]($1)"
+	},
+
+	// docsify specific
+	"Insert WIP Banner": {
+        "prefix": "docsify-wip-banner",
+        "body": "[WIP](_parts/wip_banner.part.md ':include')"
+    },
+	"Insert tabs": {
+		"prefix": "docsify-tabs",
+		"body": [
+			"<!-- tabs:start -->",
+			"",
+			"$1",
+			"",
+			"<!-- tabs:end -->"
+		],
+		"description": "Вставить вкладки docsify-tabs"
+	},
+	"Insert comment-based tab": {
+		"prefix": "docsify-comment-tab",
+		"body": "<!-- tab:$1 -->",
+		"description": "Вставить вкладку на основе комментариев, без заголовка"
+	},
+
+}

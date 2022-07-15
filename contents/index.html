@@ -1,74 +1,135 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Сообщество ГИИС "Электронный бюджет"</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+    <meta charset="UTF-8">
+    <title>Сообщество ГИИС "Электронный бюджет"</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
+
 <body>
-  <div id="app">Пожалуйста, подождите! Страница формируется. Обычно это происходит моментально.</div>
-  
-  <script>
-    window.$docsify = {
-      // Название проекта
-      name: 'Электронный бюджет - Wiki',
-      repo: 'https://github.com/egzakharovich/ebudget-site',
+    <div id="app">Пожалуйста, подождите! Страница формируется. Обычно это происходит моментально.</div>
 
-      // Проверю потом. А вдруг сработает?
-      // basePath: 'https://raw.githubusercontent.com/egzakharovich/ebudget-site/master/contents',
+    <script>
+        window.$docsify = {
+            // Название проекта
+            name: 'Электронный бюджет - Wiki',
 
-      relativePath: true,
+            // Основной репозиторий проекта. Ссылка добавляет в углу кнопку для перехода в репозиторий.
+            repo: 'https://github.com/egzakharovich/ebudget-site',
 
-      // Загрузить Sidebar и разрешить ему показывать Содержание (TOC) вплоть до второго заголовка.
-      loadSidebar: true,
-      subMaxLevel: 2,
+            // Не использовать относительные пути
+            relativePath: false,
 
-      // Конфигурация плагина flexible-alerts
-      'flexible-alerts': {
-        
-        tip: {
-          label: "Совет"
-        },
+            // Загрузить боковую панель и разрешить ему показывать Содержание (TOC) вплоть до третьего заголовка.
+            loadSidebar: true,
+            alias: {
+                '/cryptopro/_sidebar.md': '/_sidebar.md',
+                '/continent-tls-client/_sidebar.md': '/_sidebar.md',
+                '/troubleshooting/_sidebar.md': '/_sidebar.md',
+                '/.*/_navbar.md': '/_navbar.md',
+                '/guides/.*/_sidebar.md': '/guides/_sidebar.md',
+            },
+            subMaxLevel: 3,
 
-        note: {
-          label: "Заметка"
-        },
+            // Загрузить панель навигации
+            loadNavbar: true,
+            // В случае, если доступ осуществляется с телефона, объединить с боковой панелью
+            mergeNavbar: true,
 
-        warning: {
-          label: "Осторожно!"
-        },
+            // Автоматически прокручивать вверх страницы после изменения адреса
+            auto2top: true,
 
-        attention: {
-          label: "Внимание! Важно!"
-        },
+            // Конфигурация markdown обработчика
+            markdown: {
+                smartypants: true
+            },
 
-        // Добавляем собственный тип блока
-        wip: {
-          label: 'Work In Progress',
-          icon: 'fas fa-person-digging',
-          className: 'warning'
+            // Конфигурация плагина docsify-plugin-flexible-alerts
+            'flexible-alerts': {
+
+                tip: {
+                    label: "Совет"
+                },
+
+                note: {
+                    label: "На заметку"
+                },
+
+                warning: {
+                    label: "Осторожно!"
+                },
+
+                attention: {
+                    label: "Внимание! Важно!"
+                },
+
+                // Добавляем собственный тип блока - Work In Progress
+                wip: {
+                    label: 'Work In Progress',
+                    icon: 'fas fa-person-digging',
+                    className: 'warning'
+                }
+            },
+
+            // Конфигурация плагина docsify-tabs
+            tabs: {
+                persist: true,      // default
+                sync: true,      // default
+                theme: 'classic', // default
+                tabComments: true,      // default
+                tabHeadings: true       // default
+            },
+
+            // Конфигурация плагина docsify-pagination
+            pagination: {
+                previousText:{
+                    '/': 'Назад'
+                },
+                nextText: {
+                    '/': 'Далее'
+                },
+                crossChapter: true,
+                crossChapterText: true,
+            },
+
+            // Конфигурация плагина docsify-sidebar-collapse
+            // sidebarDisplayLevel: 2
         }
-      }
-    }
-  </script>
-  
-  <!-- FIXME: Переустановить все скрипты локально или загружать их, хотя бы, с указанием точной версии -->
+    </script>
 
-  <!-- Основная программа - Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <!-- FIXME: Переустановить все скрипты локально или загружать их, хотя бы, с указанием точной версии -->
 
-  <!-- Загрузить плагин docsify-plugin-flexible-alerts -->
-  <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
+    <!-- Основная программа - Docsify v4 -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 
-  <!-- Загрузить плагин docsify-fontawesome -->
-  <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/fontawesome.css" />
-  <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/brands.css" />
-  <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
-  <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
-  <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
+    <!-- Загрузить плагин docsify-plugin-flexible-alerts -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts@1/dist/docsify-plugin-flexible-alerts.min.js"></script>
 
+    <!-- Загрузить плагин docsify-fontawesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/brands.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/regular.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/solid.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/docsify-fontawesome@0.0.6/dist/docsify-fontawesome.min.js"></script>
+
+    <!-- Загрузить плагин docsify-tabs -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
+
+    <!-- Загрузить плагин docsify-sidebar-collapse -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse@1/dist/docsify-sidebar-collapse.min.js"></script> -->
+
+    <!-- Загрузить плагин docsify-pagination -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+
+    <!-- Загрузить плагин docsify-zoom-image -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
 </body>
+
+<!-- // code: language=html insertSpaces=true tabSize=4 -->
+
 </html>

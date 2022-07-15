@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "chrislajoie.vscode-modelines",
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-russian",
+        "mdickin.markdown-shortcuts",
+        "davidanson.vscode-markdownlint",
+        "mushan.vscode-paste-image",
+        "yzhang.markdown-all-in-one"
+    ]
+}
