@@ -42,8 +42,11 @@
     // Code Spell Checker
     "cSpell.language": "ru,ru-RU,en-US,en",
     "cSpell.words": [
+        "журналируемые",
         "Крипто",
+        "криптопровайдер",
         "криптопровайдера",
+        "криптопровайдере",
         "криптопровайдером",
         "Рутокен",
         "Сублицензирование",
@@ -52,11 +55,13 @@
     "cSpell.ignoreWords": [
         "GOST",
         "compatiblelicenses",
+        "cpconfig",
         "creativecommons",
         "cryptopro",
         "ebudget",
         "fontawesome",
         "gosttls",
+        "licmgmt",
         "tldr",
         "tlsclient",
         "АВПО",
