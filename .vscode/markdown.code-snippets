@@ -36,9 +36,11 @@
 	},
 	"Insert abbreviation": {
 		"prefix": ["html-abbr", "аббревиатура"],
-		"body": [
-			"<abbr title=\"$2\">$1</abbr>"
-		]
+		"body": "<abbr title=\"$2\">$1</abbr>"
+	},
+	"Insert custom anchor": {
+		"prefix": ["html-anchor", "якорь"],
+		"body": "<a name=\"$2\">$1</a>"
 	},
 	"Insert image": {
 		"prefix": "markdown-image",
