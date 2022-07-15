@@ -26,7 +26,6 @@
 
             // Загрузить боковую панель и разрешить ему показывать Содержание (TOC) вплоть до третьего заголовка.
             loadSidebar: true,
-            loadNavbar: true,
             alias: {
                 '/cryptopro/_sidebar.md': '/_sidebar.md',
                 '/continent-tls-client/_sidebar.md': '/_sidebar.md',
@@ -35,6 +34,11 @@
                 '/guides/.*/_sidebar.md': '/guides/_sidebar.md',
             },
             subMaxLevel: 3,
+
+            // Загрузить панель навигации
+            loadNavbar: true,
+            // В случае, если доступ осуществляется с телефона, объединить с боковой панелью
+            mergeNavbar: true,
 
             // Конфигурация markdown обработчика
             markdown: {
