@@ -5,7 +5,7 @@
 ----
 
 - [КриптоПро](cryptopro/)
-  - [Доступные версии КриптоПро CSP](cryptopro/csp-versions.md)
+  - [Доступные версии КриптоПро CSP и о лицензиях](cryptopro/csp-versions.md)
   - [Порядок установки СКЗИ](cryptopro/install-order.md)
   - [Классы средств защиты СКЗИ](cryptopro/about-kc.md)
   - [Установка КриптоПро CSP](cryptopro/csp-install.md)
