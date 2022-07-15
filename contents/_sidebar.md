@@ -7,7 +7,7 @@
 - [КриптоПро](cryptopro/)
   - [Доступные версии КриптоПро CSP](cryptopro/csp-versions.md)
   - [Порядок установки СКЗИ](cryptopro/install-order.md)
-  - [Классах средств защиты СКЗИ](cryptopro/about-kc.md)
+  - [Классы средств защиты СКЗИ](cryptopro/about-kc.md)
   - [Установка КриптоПро CSP](cryptopro/csp-install.md)
   - [Установка КриптоПро ЭЦП browser plug-in](cryptopro/cades-install.md)
   - [Установка расширения КриптоПро ЭЦП в браузер](cryptopro/cades-install-extension.md)
