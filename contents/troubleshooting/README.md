@@ -1,5 +1,5 @@
 # Инструкции по проверке работоспособности и устранению неполадок
 
-[WIP Banner](../_parts/wip_banner.part.md ':include')
+Раздел посвящённый проверкам на работоспособность и прочим попыткам диагностики.
 
 <!-- // code: language=markdown insertSpaces=true tabSize=2 -->
