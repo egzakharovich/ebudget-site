@@ -12,6 +12,7 @@
   - [Установка КриптоПро ЭЦП browser plug-in](cryptopro/cades-install.md)
   - [Установка расширения КриптоПро ЭЦП в браузер](cryptopro/cades-install-extension.md)
   - [Добавление доверенных сайтов в КриптоПро ЭЦП](cryptopro/cades-add-trusted-sites.md)
+  - [Контейнеры закрытого ключа](cryptopro/csp-about-containers.md)
   - [Путь сертификации](cryptopro/certification-path.md)
   - [Установка личного сертификата](cryptopro/csp-install-personal-cert.md)
   - [Браузеры с поддержкой ГОСТ TLS](cryptopro/tls-browsers.md)
