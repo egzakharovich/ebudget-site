@@ -40,6 +40,14 @@
 			"<abbr title=\"$2\">$1</abbr>"
 		]
 	},
+	"Insert image": {
+		"prefix": "markdown-image",
+		"body": "![$2]($1)"
+	},
+	"Insert link": {
+		"prefix": "markdown-link",
+		"body": "[$2]($1)"
+	},
 
 	// docsify specific
 	"Insert WIP Banner": {
@@ -61,5 +69,6 @@
 		"prefix": "docsify-comment-tab",
 		"body": "<!-- tab:$1 -->",
 		"description": "Вставить вкладку на основе комментариев, без заголовка"
-	}
+	},
+
 }
