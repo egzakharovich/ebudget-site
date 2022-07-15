@@ -6,7 +6,6 @@
 
 - [Руководства](guides/)
   - [Руководство: Быстрая настройка АРМ](guides/quick-eb/)
-  <!-- - Руководство: Расширенная настройка АРМ -->
   - [Руководство: Импорт эталонной конфигурации в Континент TLS-клиент](guides/continent-tls-client-import-quickconfig/)
     - [Загрузка эталонной конфигурации](guides/continent-tls-client-import-quickconfig/1_download-quickconfig.md)
     - [Как узнать версию программы](guides/continent-tls-client-import-quickconfig/2_get-tlsclient-version.md)
